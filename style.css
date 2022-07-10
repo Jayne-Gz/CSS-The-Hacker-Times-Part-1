@@ -1,1 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body { 
+ background: #eee;
+ font-family: Source Sans Pro;
+ text-align: center;
+ font-size: 1em;
+ font-weight: 200;
+}
+
+li {
+    font-family: abril Fatface;
+    padding: 8px;
+    margin: 0px;
+    list-style-type: none;
+    font-size: .7em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+a {
+    color: gray;  
+    text-decoration: none; 
+    text-align: center;
+}
+
+.date {
+    text-align: left;
+    color: gray;
+    padding: none;
+    font-size: 0.8em;
+}
+
+
+header h1 {
+    text-align: center;  
+    padding: none;
+    margin-top: none; 
+    font-size: 75px;
+    font-family: 'Abril Fatface';  
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+nav a {
+    font-size: 0.8em;
+    color: #777;
+}
+
+main h2 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Roboto Slab';
+    margin-bottom: 0;
+    
+}
+
+.more-articles {
+    text-align: justify;
+}
+
+main h5 {
+    font-size: 15px;
+    text-align: left;
+    padding: none;
+    font-family: 'Abril Fatface';
+    color: #dd3232;
+  margin-top: 0.5em;
+}
+
+main img {  
+    max-width: 100%;  
+    height: auto; 
+    text-align: center; 
+    }
+    
+    .style {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+      }
+    
+
+p {
+    font-family: source sans pro;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.newspaper-container {
+background-color: white;
+box-shadow: 1px 1px 5px #ddd;
+width: 700px;
+margin: auto;
+margin-bottom: 100px;
+padding: 10px;
+border-radius: 10px;
+text-align: center;
+margin: 3em auto;
+}
+
+.newspaper-container .laptop {
+    width: 700px;
+    height: auto;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 20px;
+    display: block;
+}
+
+p {
+    display: block;
+}
+
+.more-articles {
+    border-top: 1px solid #eee;
+    margin-top: 1.5em;
+    text-align: center;
+  }
+
+.more-articles section {
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
+  }
+
+.more-articles img {
+    width: 100%;
+  }
+  
+.more-articles h4 {
+    font-family: 'Roboto Slab';
+    text-align: left;
+  }
+
+nav {
+ background-color: white;
+ margin: 0px;
+ position: sticky;
+
+  }
+
+ .footer a {
+    padding: 15em;
+    margin-left: 2em;
+    
+  }
